@@ -1,0 +1,52 @@
+body{
+    background-color: lightsteelblue;
+}
+
+h1
+{
+    color: darkblue;
+    background-color: aliceblue;
+    font-family: 'Caveat Brush', cursive;
+}
+
+#timer
+{
+    float: right;
+    font-size: x-large;
+
+}
+
+#score
+{
+    float: left;
+    font-size: x-large;
+}
+
+canvas
+{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px purple;}
+    to { box-shadow: 1px 1px 38px plum;}
+}
+
+p
+{
+    font-family: 'Poiret One', cursive;
+    padding-top:10px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#button
+{
+    font-family: 'Comfortaa', cursive;
+}
